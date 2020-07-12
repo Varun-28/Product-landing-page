@@ -1,0 +1,154 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.head1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin: 3vw 0;
+}
+/*navbar*/
+.mynav{
+padding: 7px;
+background-color: white;
+top: 0;
+width: 100%;
+border : solid 1px #3AAFA9;
+    
+}
+b{
+    font-family: 'Bangers', cursive;
+    color: #3AAFA9;
+    font-size: 50px;
+}
+
+li{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/*home page*/
+.mainhead{
+    position: relative;
+    margin-top: 100px;
+}
+.home   {
+    background-color: #3AAFA9;
+    width: 98%;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.mySlides{
+    display: block;
+    max-width: 80%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    transition-duration: 4s;
+}
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; } 
+  }
+
+/*feature page*/
+.features{
+    background: url('img/features.jpg');
+    display: block;
+    width: 98%;
+    background-size: cover;
+    margin: 60px auto;
+    border-radius: 10px;
+}
+.combine{
+    width: 70%;
+    margin: 20px auto;
+    background:  rgba(255, 255, 255,0.8);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+.combine:hover{
+    transform: scale(1.05);
+}
+.g1{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+.img1{
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+/*product page*/
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 3%;
+}
+@media screen and (max-width: 800px){
+    .products{
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+}
+.img2{
+    margin: auto;
+}
+.card1{
+    width: 80%;
+    border : solid 4px #3AAFA9;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    margin-bottom: 4.5%;
+}
+.card1:hover{
+    transform: scale(1.05);
+}
+.btn{
+    position: relative;
+    left: 40%;
+}
+/*product highlight*/
+#products{
+    display:block;
+    width: 80%;
+    margin: auto;
+}
+.product-section{
+    padding: 10px;
+    transition-duration: 0.4s;
+    margin-bottom: 5px;
+    color: white;
+}
+.product-section:hover{
+    transform: scale(1.03);
+}
+#p1{
+  background: rgba(64,175,58,1);
+    border-radius: 10px;
+}
+#p2{
+    background: rgba(175,58,64,1);
+    border-radius: 10px;
+}
+#p3{
+    background: rgba(169,58,175,1);
+    border-radius: 10px;
+}
+/*footer*/
+.foot{
+    background:#3AAFA9;
+    position: relative;
+    top: 5%;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
