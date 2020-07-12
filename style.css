@@ -152,3 +152,8 @@ li{
     border-top-right-radius: 10px;
     color: white;
 }
+@media screen and (max-width: 800px){
+    .combine, #products{
+        width: 98%;
+    }
+}
