@@ -106,6 +106,7 @@ li{
     border-radius: 10px;
     transition-duration: 0.4s;
     margin-bottom: 4.5%;
+    box-shadow: 5px 5px 5px 5px gray;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -113,6 +114,7 @@ li{
 }
 .card1:hover{
     transform: scale(1.05);
+    box-shadow: 10px 10px 5px 5px gray;
 }
 
 /*product highlight*/
